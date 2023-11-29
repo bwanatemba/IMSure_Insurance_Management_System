@@ -28,7 +28,7 @@ def afterlogin_view(request):
     if is_customer(request.user):
         return redirect('customer/customer-dashboard')
     else:
-        return redirect('insurance-dashboard')
+        return redirect('admin-dashboard')
 
 
 def adminclick_view(request):
@@ -82,7 +82,7 @@ def update_customer_view(request, pk):
             user.set_password(user.password)
             user.save()
             customerForm.save()
-            return redirect('insurance-view-customer')
+            return redirect('admin-view-customer')
     return render(request, 'insurance/update_customer.html', context=mydict)
 
 
@@ -92,7 +92,7 @@ def delete_customer_view(request, pk):
     user = User.objects.get(id=customer.user_id)
     user.delete()
     customer.delete()
-    return HttpResponseRedirect('/insurance-view-customer')
+    return HttpResponseRedirect('/admin-view-customer')
 
 
 def admin_category_view(request):
@@ -105,7 +105,7 @@ def admin_add_category_view(request):
         categoryForm = forms.CategoryForm(request.POST)
         if categoryForm.is_valid():
             categoryForm.save()
-            return redirect('insurance-view-category')
+            return redirect('admin-view-category')
     return render(request, 'insurance/admin_add_category.html', {'categoryForm': categoryForm})
 
 
@@ -122,7 +122,7 @@ def admin_delete_category_view(request):
 def delete_category_view(request, pk):
     category = models.Category.objects.get(id=pk)
     category.delete()
-    return redirect('insurance-delete-category')
+    return redirect('admin-delete-category')
 
 
 def admin_update_category_view(request):
@@ -140,7 +140,7 @@ def update_category_view(request, pk):
 
         if categoryForm.is_valid():
             categoryForm.save()
-            return redirect('insurance-update-category')
+            return redirect('admin-update-category')
     return render(request, 'insurance/update_category.html', {'categoryForm': categoryForm})
 
 
@@ -160,7 +160,7 @@ def admin_add_policy_view(request):
             policy = policyForm.save(commit=False)
             policy.category = category
             policy.save()
-            return redirect('insurance-view-policy')
+            return redirect('admin-view-policy')
     return render(request, 'insurance/admin_add_policy.html', {'policyForm': policyForm})
 
 
@@ -190,7 +190,7 @@ def update_policy_view(request, pk):
             policy.category = category
             policy.save()
 
-            return redirect('insurance-update-policy')
+            return redirect('admin-update-policy')
     return render(request, 'insurance/update_policy.html', {'policyForm': policyForm})
 
 
@@ -202,7 +202,7 @@ def admin_delete_policy_view(request):
 def delete_policy_view(request, pk):
     policy = models.Policy.objects.get(id=pk)
     policy.delete()
-    return redirect('insurance-delete-policy')
+    return redirect('admin-delete-policy')
 
 
 def admin_view_policy_holder_view(request):
@@ -229,14 +229,14 @@ def approve_request_view(request, pk):
     policyrecords = models.PolicyRecord.objects.get(id=pk)
     policyrecords.status = 'Approved'
     policyrecords.save()
-    return redirect('insurance-view-policy-holder')
+    return redirect('admin-view-policy-holder')
 
 
 def disapprove_request_view(request, pk):
     policyrecords = models.PolicyRecord.objects.get(id=pk)
     policyrecords.status = 'Disapproved'
     policyrecords.save()
-    return redirect('insurance-view-policy-holder')
+    return redirect('admin-view-policy-holder')
 
 
 def admin_question_view(request):
@@ -258,7 +258,7 @@ def update_question_view(request, pk):
             question.admin_comment = admin_comment
             question.save()
 
-            return redirect('insurance-question')
+            return redirect('admin-question')
     return render(request, 'insurance/update_question.html', {'questionForm': questionForm})
 
 
