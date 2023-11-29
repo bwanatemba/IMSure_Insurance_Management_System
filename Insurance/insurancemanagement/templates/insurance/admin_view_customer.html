@@ -30,7 +30,7 @@
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
     <br><div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <img src="{% static 'image/admin-icn.png' %}" width="70" height="70" alt="main_logo">
+        <img src="{% static 'image/insurance-icn.png' %}" width="70" height="70" alt="main_logo">
         <span class="ms-1 font-weight-bold text-white">Administrator</span>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -127,8 +127,8 @@
                   <thead>
                     <tr>
                       <th class="text-secondary opacity-7"></th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Name</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Profile Picture</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Picture ID</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contact</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Address</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Update</th>
@@ -141,11 +141,11 @@
                     <tr>
                       <td>
                       </td>
+                        <td class="align-middle text-center">
+                        <img src="{% static t.profile_pic.url %}" alt="Picture" height="40px" width="40px" />
+                      </td>
                       <td>
                         <h6 class="mb-0 text-sm">{{t.get_name}}</h6>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <img src="{% static t.profile_pic.url %}" alt="Profile Pic" height="40px" width="40px" />
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="text-secondary text-xs font-weight-bold">{{t.mobile}}</span>
@@ -154,10 +154,10 @@
                         <span class="text-secondary text-xs font-weight-bold">{{t.address}}</span>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success"><a href="{% url 'update-customer' t.id  %}">EDIT</a></span>
+                        <a class="btn btn-success btn-sm" href="{% url 'update-customer' t.id  %}">EDIT</a>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-danger"><a href="{% url 'delete-customer' t.id  %}">DELETE</a></span>
+                        <a class="btn btn-danger btn-sm" href="{% url 'delete-customer' t.id  %}">DELETE</a>
                       </td>
                     </tr>
                     

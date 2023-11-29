@@ -4,7 +4,126 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="" />
+    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/Insurance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/Insurance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/apply_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/apply_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customerbase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customerclick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_add_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_add_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_add_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_add_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_delete_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_delete_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_delete_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_delete_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_update_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_update_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_update_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_update_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_approved_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_approved_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/adminbase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials/testimonials-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials/testimonials-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials/testimonials-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials/testimonials-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/bizland/img/testimonials/testimonials-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/static/dashboard/img/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/bg-pricing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/bg-smart-home-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/bg-smart-home-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/bruce-mars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/drake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/static/dashboard/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/home-decor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/home-decor-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/home-decor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/icons/flags/AU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/icons/flags/BR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/icons/flags/DE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/icons/flags/GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/icons/flags/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/danger-chat-ill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/dark-lock-ill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/error-404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/error-500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/illustration-lock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/illustration-reset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/illustration-signin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/illustration-signup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/illustration-verification.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/pattern-tree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/illustrations/rocket-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/ivana-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/ivana-squares.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/ivancik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/kal-visuals-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logo-ct-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logo-ct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-coinbase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-nasa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-netflix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-spotify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/gray-logos/logo-vodafone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/logos/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/marie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/meeting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/office-dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-1-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-2-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-3-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-4-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-5-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-6-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-7-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-details-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-details-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-details-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-details-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/products/product-details-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/shapes/pattern-lines.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/shapes/waves-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/creative-tim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/devto.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/google-webdev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/icon-bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/icon-sun-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-asana.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-atlassian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-invision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-jira.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-spotify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/small-logos/logo-xd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/team-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/tesla-model-s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/static/dashboard/img/vr-bg.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +132,14 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2Y9riKGovEriM9xnR2YLrOiqQKp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +149,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/ED/Cloud9-EKS-Lab/environment&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -91,6 +215,8 @@
       <workItem from="1701190966790" duration="3297000" />
       <workItem from="1701201220880" duration="1107000" />
       <workItem from="1701241963316" duration="1342000" />
+      <workItem from="1701252127153" duration="19528000" />
+      <workItem from="1701281202639" duration="2889000" />
     </task>
     <servers />
   </component>

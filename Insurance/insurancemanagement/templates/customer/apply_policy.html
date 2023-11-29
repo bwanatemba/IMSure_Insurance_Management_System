@@ -165,7 +165,7 @@
                         <span class="text-secondary text-xs font-weight-bold">{{t.creation_date}}</span>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success"><a href="{% url 'apply' t.id  %}">APPLY</a></span>
+                        <a class="btn btn-success btn-sm" href="{% url 'apply' t.id  %}">APPLY</a>
                       </td>
                     </tr>
                     {% endfor %}

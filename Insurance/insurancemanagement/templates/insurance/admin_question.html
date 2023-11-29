@@ -30,7 +30,7 @@
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
     <br><div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <img src="{% static 'image/admin-icn.png' %}" width="70" height="70" alt="main_logo">
+        <img src="{% static 'image/insurance-icn.png' %}" width="70" height="70" alt="main_logo">
         <span class="ms-1 font-weight-bold text-white">Administrator</span>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -157,7 +157,7 @@
                         <span class="text-secondary text-xs font-weight-bold">{{t.asked_date}}</span>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-faded-success"><a href="{% url 'update-question' t.id  %}">Respond</a></span>
+                        <a class="btn btn-success btn-sm" href="{% url 'update-question' t.id  %}">Respond</a>
                       </td>
                     </tr>
                     
