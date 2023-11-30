@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="update html" />
+    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="update insurancemanagement\views.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/Insurance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/Insurance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customersignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customersignup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +118,9 @@
       <workItem from="1701241963316" duration="1342000" />
       <workItem from="1701252127153" duration="19528000" />
       <workItem from="1701281202639" duration="3337000" />
+      <workItem from="1701284605911" duration="497000" />
+      <workItem from="1701325919958" duration="42000" />
+      <workItem from="1701326049545" duration="5196000" />
     </task>
     <task id="LOCAL-00001" summary="update html">
       <option name="closed" value="true" />
@@ -126,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701284386509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update insurancemanagement\views.py">
+      <option name="closed" value="true" />
+      <created>1701284997883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701284997883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update html" />
+    <MESSAGE value="update insurancemanagement\views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update insurancemanagement\views.py" />
   </component>
 </project>
