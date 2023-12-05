@@ -4,23 +4,462 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="update insurancemanagement\views.py">
+    <list default="true" id="2eb59b4c-1183-4879-ad5a-3ac1bbee2c07" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29-Nov-23_09_55_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/adminbase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/clients/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/img/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/scss/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/aos/aos.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/aos/aos.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/aos/aos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/bootstrap-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/bootstrap-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/css/glightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/css/plyr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/js/glightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/purecounter/purecounter_vanilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/purecounter/purecounter_vanilla.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/bizland/vendor/waypoints/noframework.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/css/material-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/css/material-dashboard.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/css/material-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/css/nucleo-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/css/nucleo-svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/fonts/nucleo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/img/down-arrow-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/img/down-arrow-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/img/down-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/core/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/material-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/material-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/material-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/Chart.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/chartjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/countup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/smooth-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/js/plugins/world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_dropup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_ripple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_tilt.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_color-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/cards/card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/cards/card-rotate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/custom/_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_colored-shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/plugins/free/_flatpickr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/plugins/free/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/plugins/free/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/plugins/free/_prism.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/plugins/free/plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_cards-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_choices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_full-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_misc-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_ripple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/dashboard/scss/material-dashboard/variables/_virtual-reality.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/staticfiles/image/admin-icn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/Insurance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/Insurance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/customer/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/customer/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Insurance/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customersignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customersignup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_disapproved_policy_holder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_policy_holder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_view_waiting_policy_holder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/update_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/apply_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/apply_policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/ask_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/ask_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customer_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/customer_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/question_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/customer/question_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/admin_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/insurancemanagement/templates/insurance/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +559,13 @@
       <workItem from="1701281202639" duration="3337000" />
       <workItem from="1701284605911" duration="497000" />
       <workItem from="1701325919958" duration="42000" />
-      <workItem from="1701326049545" duration="5196000" />
+      <workItem from="1701326049545" duration="10203000" />
+      <workItem from="1701342023588" duration="4398000" />
+      <workItem from="1701350629412" duration="1856000" />
+      <workItem from="1701406816562" duration="1356000" />
+      <workItem from="1701690981755" duration="926000" />
+      <workItem from="1701775447812" duration="583000" />
+      <workItem from="1701776676227" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="update html">
       <option name="closed" value="true" />
@@ -154,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701284997883</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated html">
+      <option name="closed" value="true" />
+      <created>1701333771498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701333771498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +627,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update html" />
     <MESSAGE value="update insurancemanagement\views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update insurancemanagement\views.py" />
+    <MESSAGE value="updated html" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
